@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg" alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempor quam egestas malesuada dignissim. Curabitur semper faucibus velit eget pretium. Integer sit amet nisi volutpat, euismod enim vel, congue neque. Ut nec imperdiet leo, quis laoreet nisi. Proin ornare massa vitae gravida laoreet.
+
+                p Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus fermentum leo non vestibulum fringilla. Donec suscipit tellus et commodo vestibulum. In odio diam, condimentum a nibh eget, tincidunt finibus libero. Proin sit amet magna tempor, bibendum ipsum eget, tincidunt nisl. 
+
+                p Ut mollis nulla felis, vel efficitur purus sodales at. In ligula augue, viverra id erat ut, condimentum viverra nunc. Fusce lacinia ut diam vitae laoreet. Suspendisse potenti. Maecenas magna urna, pretium at interdum eget, euismod ac enim. Vestibulum tristique leo sem, nec volutpat nunc aliquam sit amet. 
+    .listado-iconos
+        .container.mt-5.py-5.text-center 
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad" class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempor quam egestas malesuada dignissim. Curabitur semper faucibus velit eget pretium.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos" class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempor quam egestas malesuada dignissim. Curabitur semper faucibus velit eget pretium.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios" class="img-fluid mb-4")
+                    h2.mb-4 Mejores precios
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempor quam egestas malesuada dignissim. Curabitur semper faucibus velit eget pretium.
+                
